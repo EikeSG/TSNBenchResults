@@ -1,4 +1,4 @@
-NOTE: Please use a markdown viewer with bright background color (required due to plot labels on transparent background) or view via `plots.html`.
+NOTE: Please use a markdown viewer with bright background color (required due to plot labels on transparent background). For example, use a light theme when viewing on GitHub.
 
 # TC-DS-ct
 
