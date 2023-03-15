@@ -2,7 +2,7 @@
 This dataset provides test results of multiple Time-Sensitive Networking (TSN) schedulers that were tested and compared in the following publication:
 - E. Schweissguth, S. Mehner, D. Hellmanns, J. Falk, H. Parzyjegla, P. Danielis, O. Hohlfeld, G. Muehl, and D. Timmermann, "**TSN Scheduler Benchmarking.**" in *WFCS 2023*. IEEE.
 
-Please refer to the paper for detailed background information. The results are based on the following scenarios (i.e., topologies and stream sets): (insert zenodo url here). Also check the linked GitHub repository for updates and for a good in-browser view (especially for markdown files).
+Please refer to the paper for detailed background information. The results are based on the following scenarios (i.e., topologies and stream sets): "**TSN Scheduler Benchmarking: Scenarios v1.0.0**" (see https://doi.org/10.5281/zenodo.7738090 or https://github.com/EikeSG/TSNBenchScenarios/releases/tag/v1.0.0). When accessing this dataset through Zenodo, also check the corresponding GitHub repository (https://github.com/EikeSG/TSNBenchResults) for updates and for a good in-browser view (especially for markdown files).
 
 This repository contains the full runtime data of our scheduler tests and all runtime/schedulability plots for all benchmarking test cases, whereas result plots in the paper are excerpts from the plots in this repository. See below for further details on the contents of the `runtimes` and `plots` directories.
 
