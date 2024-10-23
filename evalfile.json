@@ -1,0 +1,16 @@
+{
+    "par_fields" : {"tt" : "str", "ts" : "int", "fc" : "int", "ct" : "int", "fs" : "int", "lf" : "float"},
+    "par_regex" : ".*t\\d+_(?P<tt>[a-zA-Z]+)(?P<ts>\\d+)_(?:ss|p)\\d+.\\d+_(?:sss|fc)(?P<fc>\\d+)_ct(?P<ct>\\d+)_fs(?P<fs>\\d+)_lf(?P<lf>\\d+|\\d+[.]\\d+)[.](?:pat|json)",
+    "evaluations" : [
+        {"ref" : "TC-L", "evaltag" : "TC-L", "tags" : "_{tt}_{ts}_sss{fc}__", "unroll" : ["fc"], "grouping" : ["ct"]},
+        {"ref" : "TC-SSS", "evaltag" : "TC-SSS", "tags" : "_{tt}_{ts}__", "unroll" : []},
+        {"ref" : "TC-TS", "evaltag" : "TC-TS", "tags" : "_{tt}_sss{fc}__", "unroll" : [], "grouping" : ["ts"]},
+        {"ref" : "TC-LL", "evaltag" : "TC-LL", "tags" : "_{tt}_{ts}_sss{fc}_lf{lf}__", "unroll" : ["lf"], "grouping" : ["ct"]},
+        {"ref" : "TC-G", "evaltag" : "TC-G", "tags" : "_{tt}_{ts}_fs{fs}__", "unroll" : []},
+        {"ref" : "TC-DS-ct", "evaltag" : "TC-DS-ct", "tags" : "_{tt}_{ts}_sss{fc}__", "unroll" : [], "grouping" : ["ct"]},
+        {"ref" : "TC-DS-lf", "evaltag" : "TC-DS-lf", "tags" : "_{tt}_{ts}_sss{fc}__", "unroll" : [], "grouping" : ["lf"]},
+        {"ref" : "lo", "evaltag" : "summary_lo", "grouping" : "lo-hi", "mplplots" : ["bar_schedab", "bar_rt_sum_stacked", "vhist_rt_total", "vhist_lt"], "parfil" : "lo"},
+        {"ref" : "hi", "evaltag" : "summary_hi", "grouping" : "lo-hi", "mplplots" : ["bar_schedab", "bar_rt_sum_stacked", "vhist_rt_total", "vhist_lt"], "parfil" : "hi"},
+        {"ref" : "all", "evaltag" : "summary_all", "grouping" : "lo-hi", "mplplots" : ["bar_schedab", "bar_rt_sum_stacked", "vhist_rt_total", "vhist_lt"]}
+    ]
+}

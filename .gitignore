@@ -1,0 +1,17 @@
+unicast/
+multicast/
+log/
+diss_fig2/
+nohup.out
+tag
+*.res
+*.sh
+*.pgf
+*.png
+*.pdf
+*noxl*
+*noyl*
+*noxtl*
+*noxbl*
+*leg-d*
+zenodo_results.tar.gz
