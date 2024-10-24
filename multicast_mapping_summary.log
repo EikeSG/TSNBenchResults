@@ -1,0 +1,30 @@
+INFO: opened 90238 result files with 376 unique ids
+INFO: validated 90238 results
+INFO: total runtime was 12217274.14363055 seconds
+INFO: solved by 24 different solvers
+
+slv_name mapping:
+sum_si_sp_lu1_stl_nt1x6t__spfl25                           : mcs --              lu1,stl,nt1x6t,bpl,rcr,ia,ne,rlp               -- SPLT25 -- 3760 results
+sum_si_sp_lu1_stl_nt1x6t__1sp                              : mcs --              lu1,stl,nt1x6t,bpl,rcr,ia,ne,rlp               --    1SP -- 3760 results
+epdr_lu1_stl_nt1x6t__spfl25                                : mct --              lu1,stl,nt1x6t,bpl,rcr,ia,ne,rlp               -- SPLT25 -- 3760 results
+epdr_lu1_stl_nt1x6t__1sp                                   : mct --              lu1,stl,nt1x6t,bpl,rcr,ia,ne,rlp               --    1SP -- 3760 results
+sum_si_sp_lu1_stl_rpp-ksp-1-4_nt1x6t__spfl25               : mcs --        lu1,stl,rpp-ksp-1-4,nt1x6t,bpl,rcr,ia,ne,rlp         -- SPLT25 -- 3760 results
+sum_si_sp_lu1_stl_rpp-ksp-1-4_nt1x6t__1sp                  : mcs --        lu1,stl,rpp-ksp-1-4,nt1x6t,bpl,rcr,ia,ne,rlp         --    1SP -- 3760 results
+epdr_lu1_stl_rpp-ksp-1-4_nt1x6t__spfl25                    : mct --        lu1,stl,rpp-ksp-1-4,nt1x6t,bpl,rcr,ia,ne,rlp         -- SPLT25 -- 3760 results
+epdr_lu1_stl_rpp-ksp-1-4_nt1x6t__1sp                       : mct --        lu1,stl,rpp-ksp-1-4,nt1x6t,bpl,rcr,ia,ne,rlp         --    1SP -- 3760 results
+sum_si_sp_lu1_stl_rpp-lbsp_nt1x6t__spfl25                  : mcs --          lu1,stl,rpp-lbsp,nt1x6t,bpl,rcr,ia,ne,rlp          -- SPLT25 -- 3760 results
+sum_si_sp_lu1_stl_rpp-lbsp_nt1x6t__1sp                     : mcs --          lu1,stl,rpp-lbsp,nt1x6t,bpl,rcr,ia,ne,rlp          --    1SP -- 3760 results
+epdr_lu1_stl_rpp-lbsp_nt1x6t__spfl25                       : mct --          lu1,stl,rpp-lbsp,nt1x6t,bpl,rcr,ia,ne,rlp          -- SPLT25 -- 3759 results
+epdr_lu1_stl_rpp-lbsp_nt1x6t__1sp                          : mct --          lu1,stl,rpp-lbsp,nt1x6t,bpl,rcr,ia,ne,rlp          --    1SP -- 3760 results
+sum_si_sp_lu1_modv_stl_nt1x6t__spfl25                      : mcs --            lu1,modv,stl,nt1x6t,bpl,rcr,ia,ne,rlp            -- SPLT25 -- 3759 results
+sum_si_sp_lu1_modv_stl_nt1x6t__1sp                         : mcs --            lu1,modv,stl,nt1x6t,bpl,rcr,ia,ne,rlp            --    1SP -- 3760 results
+epdr_lu1_modv_stl_nt1x6t__spfl25                           : mct --            lu1,modv,stl,nt1x6t,bpl,rcr,ia,ne,rlp            -- SPLT25 -- 3760 results
+epdr_lu1_modv_stl_nt1x6t__1sp                              : mct --            lu1,modv,stl,nt1x6t,bpl,rcr,ia,ne,rlp            --    1SP -- 3760 results
+sum_si_sp_lu1_modv_stl_rpp-ksp-1-4_nt1x6t__spfl25          : mcs --      lu1,modv,stl,rpp-ksp-1-4,nt1x6t,bpl,rcr,ia,ne,rlp      -- SPLT25 -- 3760 results
+sum_si_sp_lu1_modv_stl_rpp-ksp-1-4_nt1x6t__1sp             : mcs --      lu1,modv,stl,rpp-ksp-1-4,nt1x6t,bpl,rcr,ia,ne,rlp      --    1SP -- 3760 results
+epdr_lu1_modv_stl_rpp-ksp-1-4_nt1x6t__spfl25               : mct --      lu1,modv,stl,rpp-ksp-1-4,nt1x6t,bpl,rcr,ia,ne,rlp      -- SPLT25 -- 3760 results
+epdr_lu1_modv_stl_rpp-ksp-1-4_nt1x6t__1sp                  : mct --      lu1,modv,stl,rpp-ksp-1-4,nt1x6t,bpl,rcr,ia,ne,rlp      --    1SP -- 3760 results
+sum_si_sp_lu1_modv_stl_rpp-lbsp_nt1x6t__spfl25             : mcs --       lu1,modv,stl,rpp-lbsp,nt1x6t,bpl,rcr,ia,ne,rlp        -- SPLT25 -- 3760 results
+sum_si_sp_lu1_modv_stl_rpp-lbsp_nt1x6t__1sp                : mcs --       lu1,modv,stl,rpp-lbsp,nt1x6t,bpl,rcr,ia,ne,rlp        --    1SP -- 3760 results
+epdr_lu1_modv_stl_rpp-lbsp_nt1x6t__spfl25                  : mct --       lu1,modv,stl,rpp-lbsp,nt1x6t,bpl,rcr,ia,ne,rlp        -- SPLT25 -- 3760 results
+epdr_lu1_modv_stl_rpp-lbsp_nt1x6t__1sp                     : mct --       lu1,modv,stl,rpp-lbsp,nt1x6t,bpl,rcr,ia,ne,rlp        --    1SP -- 3760 results
